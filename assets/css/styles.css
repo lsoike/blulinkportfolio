@@ -1,6 +1,11 @@
 h6, h5, h4 {
-	font-family: "Helvetica Light", sans-serif;
+	font-family: 'Helvetica Neue Light', sans-serif;
 	padding-top: 30px;
+}
+
+p {
+	font-family: 'Helvetica Neue Light', sans-serif;
+	padding-left: 10px;
 }
 
 
@@ -14,7 +19,7 @@ h6, h5, h4 {
 }
 
 .nk-isotope.nk-isotope-gap .nk-isotope-item {
-    padding: 5px; /* gutter between images */
+    padding: 10px; /* gutter between images */
 }
 
 .nk-isotope .nk-isotope-item {
@@ -35,8 +40,8 @@ h6, h5, h4 {
 	text-align: left;
 	vertical-align: top;
     cursor: pointer;
-	padding-right: 30px;
-	padding-left: 20px;
+	padding-right: 40px;
+	padding-left: 10px;
 	line-height: 2.2;
     font-size: 0.85rem;
     color: #2F2E2E;
