@@ -1,0 +1,123 @@
+h6, h5, h4 {
+	font-family: "Helvetica Light", sans-serif;
+	padding-top: 30px;
+}
+
+
+.container {
+	width: 980px; /* width of section */
+}
+
+
+.nk-isotope.nk-isotope-gap {
+    margin: -15px;
+}
+
+.nk-isotope.nk-isotope-gap .nk-isotope-item {
+    padding: 5px; /* gutter between images */
+}
+
+.nk-isotope .nk-isotope-item {
+    display: block;
+    width: 20%; /* how many images across */
+}
+
+
+.nk-isotope-filter {
+    list-style: none;
+    padding: 0;
+    margin: 30px -20px;
+}
+
+/*---------list items - portfolio navigation-----------------------*/
+.nk-isotope-filter > li, td {
+    font-family: 'Helvetica Light', sans-serif;
+	text-align: left;
+	vertical-align: top;
+    cursor: pointer;
+	padding-right: 30px;
+	padding-left: 20px;
+	line-height: 2.2;
+    font-size: 0.85rem;
+    color: #2F2E2E;
+}
+
+
+.nk-isotope-filter > li.active .nk-isotope-filter > li:hover {
+    color: #3DB8E3;
+}
+
+
+/* hover over portfolio pieces */
+.nk-portfolio-list .nk-portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+/* hyperlink for portfolio pieces */
+.nk-portfolio-list .nk-portfolio-item .nk-portfolio-item-link {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* portfolio pieces */
+.nk-portfolio-list .nk-portfolio-item div.nk-portfolio-item-image > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-square div.nk-portfolio-item-image,
+.nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-square a.nk-portfolio-item-image {
+    padding-bottom: 100%;
+}
+
+/* hover icon size */
+.nk-portfolio-list .nk-portfolio-item .portfolio-item-icon {
+    font-size: 2rem;
+}
+
+/* hover over states of portfolio pieces */
+.nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-1 .nk-portfolio-item-info, .nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-2 .nk-portfolio-item-info {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    background-color: #3DB8E3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    padding: 50px;
+    transition: .5s opacity, .5s background-color;
+}
+
+
+/* text placement for hover over */
+.nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-1 .nk-portfolio-item-info.nk-portfolio-item-info-center, .nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-2 .nk-portfolio-item-info.nk-portfolio-item-info-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+/* hover over */
+.nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-1:hover .nk-portfolio-item-info,
+.nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-1.hover .nk-portfolio-item-info, .nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-2:hover .nk-portfolio-item-info,
+.nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-2.hover .nk-portfolio-item-info {
+    opacity: 1;
+}
