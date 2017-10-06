@@ -1,6 +1,7 @@
 h6, h5, h4 {
 	font-family: 'Helvetica Neue Light', sans-serif;
 	padding-top: 30px;
+	line-height: normal;
 }
 
 p {
@@ -86,10 +87,6 @@ p {
     padding-bottom: 100%;
 }
 
-/* hover icon size */
-.nk-portfolio-list .nk-portfolio-item .portfolio-item-icon {
-    font-size: 2rem;
-}
 
 /* hover over states of portfolio pieces */
 .nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-1 .nk-portfolio-item-info, .nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-2 .nk-portfolio-item-info {
