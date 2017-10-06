@@ -36,20 +36,27 @@ p {
 }
 
 /*---------list items - portfolio navigation-----------------------*/
-.nk-isotope-filter > li, td {
+.nk-isotope-filter > table li, td{
     font-family: 'Helvetica Light', sans-serif;
 	text-align: left;
 	vertical-align: top;
     cursor: pointer;
-	padding-right: 40px;
+	padding-right: 20px;
 	padding-left: 10px;
 	line-height: 2.2;
     font-size: 0.85rem;
-    color: #2F2E2E;
 }
 
+.nk-isotop-filter td {
+	vertical-align:top !important;
+}
 
-.nk-isotope-filter > li.active .nk-isotope-filter > li:hover {
+.nk-isotope-filter > table li h4 {
+	color:#000;
+	cursor: default;
+}
+
+.nk-isotope-filter > table li.active, .nk-isotope-filter > table li:hover {
     color: #3DB8E3;
 }
 
